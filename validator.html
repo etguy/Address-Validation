@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="validator.css">
+
+</head>
+
+<body>
+
+    <form onsubmit="validateAddress()">
+
+        <fieldset id="formgroup">
+
+
+            Address:
+            <input type="text" size="80" name="inpAddress" id="inpAddress">
+            <input type="submit" class="btn" value="Validate ..">
+
+
+
+        </fieldset>
+
+
+    </form>
+
+    <div id="results"  >
+
+        Validation status:
+        <p id="vldsts"></p>
+        <br/>
+
+        <div id="vldmatches">
+
+            <ul id="vldcontainer">
+
+
+            </ul>
+
+        </div>
+
+    </div>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="validator.js"></script>
+
+
+
+
+</body>
+
+
+</html>
